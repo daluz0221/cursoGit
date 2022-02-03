@@ -9,7 +9,7 @@ body{
 
 .container{
     width: 70%;
-    padding: 1em;
+    padding: 0;
     text-align: center;
     border: 1px solid #ddd;  
     margin: 0 auto; 
@@ -17,4 +17,23 @@ body{
 
 .container h1{
     font-size: 20px
+}
+
+#cabezera{
+    background: #33a;
+    margin: 0;
+    padding: 0.5em;
+    color: #fff;
+    font-weight: bold;
+    box-shadow: 0 2px 20px 0 rgba(0, 0, 0, 0.75);
+}
+
+#post{
+    padding: 1em;
+}
+
+#cabezera #tagline{
+    font-weight: normal;
+    font-size: .8em;
+    margin: 0 0 0 1em;
 }
